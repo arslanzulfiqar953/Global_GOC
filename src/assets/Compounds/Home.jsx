@@ -1,5 +1,5 @@
 import React from 'react'
-import Homebg from '../../assets/compounds/GDSBG.png'; 
+import banner from '../../assets/Compounds/GDSBG.png'; 
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       <div
         className="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-[2000ms] ease-in-out transform hover:scale-125"
         style={{
-          backgroundImage: `url(${Homebg})`,
+          backgroundImage: `url(${banner})`,
         }}
       >
         {/* Content goes here */}
