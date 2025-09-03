@@ -1,11 +1,12 @@
 import React from 'react'
+import safety from "./safety.png";
 
 const Safety = () => {
   return (
     <div>
       <section className="bg-[#01133F] body-font">
   <div className="container flex flex-col items-center mx-auto px-5 py-24 md:flex-row">
-    <div className="flex flex-col items-center mb-16 pr-16 mb-0 pr-24 w-1/2 text-center text-left md:items-start lg:flex-grow">
+    <div className="flex flex-col items-center w-1/2 md:items-start lg:flex-grow">
      
       <h1 className="mb-4 text-3xl font-medium text-white title-font sm:text-4xl">⏲ Don't Over Speed
         <br className="hidden lg:inline-block"/>
@@ -33,7 +34,7 @@ const Safety = () => {
       </div>
     </div>
     <div className="w-5/6 w-full md:w-1/2 lg:max-w-lg">
-      <img className="object-cover object-center rounded" alt="hero"  src="src/assets/Compounds/safety.png" />
+      <img className="object-cover object-center rounded" alt="hero"  src={safety} />
     </div>
   </div>
 </section>

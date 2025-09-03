@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom'
+import logo2 from "./logo2.png";
+
+
+
 
 const Header = () => {
   const [showForm, setShowForm] = useState(false);
@@ -11,7 +15,7 @@ const Header = () => {
         <div className="navbar-start">
           <a className="text-xl btn btn-ghost">
             <img
-              src="src/assets/Compounds/logo2.png"
+              src={logo2}
               alt="Logo"
               className="h-[50px]"
             />

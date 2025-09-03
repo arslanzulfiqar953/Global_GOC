@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../assets/Compounds/GDSBG.png'; 
+import banner from "./GDSBG.png";
 
 const Home = () => {
   return (
